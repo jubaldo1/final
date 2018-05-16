@@ -1,0 +1,274 @@
+[13-May-2018 20:44:32 UTC] PHP Notice:  Use of undefined constant data - assumed 'data' in /home/ubuntu/workspace/final/2018-05-11/index.php on line 82
+[13-May-2018 20:44:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/ubuntu/workspace/final/2018-05-11/index.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-11/index.php(91): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-11/index.php on line 91
+[15-May-2018 02:09:23 UTC] PHP Notice:  Undefined index: answer in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 32
+[15-May-2018 02:09:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'Salon.lol' doesn't exist in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 32
+[15-May-2018 02:17:48 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 41
+[15-May-2018 02:25:23 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:26:22 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:26:44 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:27:17 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:30:29 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:32:49 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:33:54 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:35:54 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:36:57 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:38:25 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:43:42 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:45:44 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:46:09 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:47:48 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 02:48:06 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 42
+[15-May-2018 03:18:21 UTC] PHP Notice:  Undefined index: from in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 44
+[15-May-2018 03:18:21 UTC] PHP Notice:  Undefined index: to in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 45
+[15-May-2018 03:18:21 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:18:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES (N' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:19:55 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:19:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:22:04 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:22:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:23:32 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:23:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:25:33 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:25:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:29:10 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:29:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:29:36 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:29:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:30:47 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:30:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:31:26 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:31:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:32:10 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:32:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:33:36 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:33:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:35:20 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:35:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:36:54 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:36:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:37:15 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:37:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:39:38 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:39:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:45:17 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:45:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from, to, code, type, status, title, slogan, action, describe)
+        VALUES ('' at line 1 in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:55:16 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 03:55:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'description' cannot be null in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 04:01:37 UTC] PHP Notice:  Undefined index: describe in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 04:01:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'description' cannot be null in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(52): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 52
+[15-May-2018 04:02:49 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:07:15 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:16:27 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:16:27 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:16:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 8
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:27 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 12
+[15-May-2018 04:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConn() in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/index.php(2): include()
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/uploadImage.php on line 65
+[15-May-2018 04:19:41 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:19:41 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 5
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 5
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/final/2018-05-14/index.php on line 6
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:19:41 UTC] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 9
+[15-May-2018 04:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getDBConn() in /home/ubuntu/workspace/final/2018-05-14/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/index.php on line 61
+[15-May-2018 04:25:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ubuntu/workspace/final/2018-05-14/index.php on line 78
+[15-May-2018 04:25:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ubuntu/workspace/final/2018-05-14/index.php on line 78
+[15-May-2018 04:26:30 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:30 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:30 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:30 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:30 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:30 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:47 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:47 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:47 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:47 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:47 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:53 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:53 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:26:53 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:53 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:26:53 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:28:00 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:32:15 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:32:15 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:32:15 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:32:15 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:32:15 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:32:20 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:37:16 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:37:16 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:37:16 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:37:16 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:37:16 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:37:21 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:38:17 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:38:17 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:38:17 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:17 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:17 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:24 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:38:24 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:38:24 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:24 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:24 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:38:29 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 62
+[15-May-2018 04:42:45 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:42:45 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:42:45 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:42:45 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:42:45 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:43:16 UTC] PHP Notice:  Undefined variable: results in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 63
+[15-May-2018 04:43:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isArchive' in 'where clause' in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php(19): PDO->query('SELECT * FROM `...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018-05-14/apiEndpoint.php on line 19
+[15-May-2018 04:44:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:44:08 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:44:08 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:44:08 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:44:08 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:44:39 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:44:39 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:44:39 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:44:39 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:44:39 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:58 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:58 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:58 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:58 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:58 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:58 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:59 UTC] PHP Notice:  Undefined index: fileName in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:59 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:59 UTC] PHP Warning:  imagecreatefromstring(): Empty string or invalid image in /home/ubuntu/workspace/final/2018-05-14/index.php on line 4
+[15-May-2018 04:56:59 UTC] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:59 UTC] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
+[15-May-2018 04:56:59 UTC] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/ubuntu/workspace/final/2018-05-14/index.php on line 8
